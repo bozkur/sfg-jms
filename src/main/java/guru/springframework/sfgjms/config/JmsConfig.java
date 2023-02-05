@@ -11,6 +11,7 @@ import org.springframework.jms.support.converter.MessageType;
 public class JmsConfig {
 
     public static final String QUEUE_NAME = "HelloQueue";
+    public static final String SEND_RCV_QUEUE_NAME = "HelloSendRcvQueue";
 
     @Bean
     public MessageConverter messageConverter() {
